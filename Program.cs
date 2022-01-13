@@ -35,8 +35,7 @@ namespace GuessingGame
                 }
                 else
                 {
-                    //Console.WriteLine("Oh no, you lost!");
-                    //Console.WriteLine("That's not correct! Please try again.\n");
+                    
 
                     if(userGuess < answer)
                     {
@@ -48,7 +47,7 @@ namespace GuessingGame
 
                 }
             }
-
+            
             if (hasWon)
             {
                 Console.WriteLine("You won!");
